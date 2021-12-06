@@ -1,0 +1,31 @@
+    <form onsubmit="submitForm()">
+    <label for="Name">Name</label>
+    <input type=”text” id=”name” name=”name” placeholder=”Your name”>
+    
+    <label for=”Email”>Email</label>
+    <input type=”text” id=”email” name=”email” placeholder=”Enter Email”>
+    
+    <label for=”subjects”>Subject</label>
+    <textarea id=”subject” name=”subject” placeholder= ”How can I help?” style="height:250px"> </textarea>
+    <input type=”submit” value=”Submit”> 
+    
+    <button type=”button”>Click here </button>
+    
+    <input type=”submit” value=”Submit”>
+</form>
+
+
+/* Styling the submit button */
+Input[type=submit] {
+Background-color: purple;
+Color: white;
+Padding: 12px 20px;
+Border: none;
+Border-radius: 28px;
+Cursor: pointer; 
+}
+
+/* Styling it for the hover state mouse moving on top */
+Input[type=submit]:hover {
+Background-color: #45a;
+}
