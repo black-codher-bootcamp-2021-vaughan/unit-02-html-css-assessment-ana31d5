@@ -1,75 +1,56 @@
 @import url("https://coolors.co/0c0a3e-7b1e7a-b33f62-f9564f-f3c677");
 
 #title {
-  color: black;
+  color: #fff8ed;
   border-radius: 45px;
-  font-family: "Courier New", Courier, monospace;
   margin-left: 50px;
 }
+
+header {
+  background-color: #ffaf47;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  color: #fff8ed;
+}
+
+.box {
+  background-color: #ffaf47;
+  color: #fff8ed;
+}
+
+.profile-img {
+  align-items: baseline;
+}
+
 #subtitle {
-  color: black;
-  font-family: "Courier New", Courier, monospace;
+  color: #fff8ed;
   margin-left: 50px;
 }
 .nav {
-  text-align: center;
-  text-decoration: black;
-  text-size-adjust: 200px;
-}
-
-main {
-  background-color: #FB8D89;
-  background-attachment: scroll;
-
-
-header {
-  background-color: #b9b9b9
+  color: #fff8ed;
+  background-color: #ffaf47;
+  text-align: right;
+  text-decoration-color: #cc0000;
+  text-decoration: antiquewhite;
+  text-size-adjust: 500px;
 }
 
 footer {
-  background-color: #f1cbcb;
+  background-color: #ffaf47;
 }
-.box {
-  background-color: #b9b9b9;
-}
-.section {
-  display: flex;
+
+main {
+  background-color: whitesmoke;
+  text-align: left;
+  display: block;
+  flex-direction: row;
+  padding: 1em;
+  width: 750px;
+  -webkit-box-pack: center;
   justify-content: center;
   align-items: center;
-}
-
-#image {
-  display: flex;
-  justify-content: flex-start;
-}
-
-@keyframes pulse {
-  0% {
-    background-color: #e64b2c;
-  }
-  20% {
-    background-color: #e86823;
-  }
-  40% {
-    background-color: #e8d423;
-  }
-  60% {
-    background-color: #3de823;
-  }
-  80% {
-    background-color: #2378e8;
-  }
-  100% {
-    background-color: #ce23e8;
-  }
-}
-
-.box {
-  width: 1333px;
-  height: 80px;
-  background-color: #cc0000;
-  animation-name: pulse;
-  animation-duration: 4s;
+  margin: 1.5em auto 0px;
 }
 
 .language {
@@ -78,19 +59,6 @@ footer {
   box-sizing: border-box;
 }
 
-li :nth-of-type(2n) {
-  color: blue;
-}
-
-li :nth-of-type(2n + 1) {
-  text-decoration: blanchedalmond;
-}
-
-li :nth-of-type(4n) {
-  color: lime;
-}
-
-li :nth-of-type(4n + 1) {
-  text-decoration: underline;
-  color: red;
+.progects {
+  text-align: center;
 }
