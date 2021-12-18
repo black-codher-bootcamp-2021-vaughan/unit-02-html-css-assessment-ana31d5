@@ -1,0 +1,64 @@
+@import url("https://coolors.co/0c0a3e-7b1e7a-b33f62-f9564f-f3c677");
+
+#title {
+  color: #fff8ed;
+  border-radius: 45px;
+  margin-left: 50px;
+}
+
+header {
+  background-color: #ffaf47;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  color: #fff8ed;
+}
+
+.box {
+  background-color: #ffaf47;
+  color: #fff8ed;
+}
+
+.profile-img {
+  align-items: baseline;
+}
+
+#subtitle {
+  color: #fff8ed;
+  margin-left: 50px;
+}
+.nav {
+  color: #fff8ed;
+  background-color: #ffaf47;
+  text-align: right;
+  text-decoration-color: #cc0000;
+  text-decoration: antiquewhite;
+  text-size-adjust: 500px;
+}
+
+footer {
+  background-color: #ffaf47;
+}
+
+main {
+  background-color: whitesmoke;
+  text-align: left;
+  display: block;
+  flex-direction: row;
+  padding: 1em;
+  width: 750px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em auto 0px;
+}
+
+.language {
+  text-align: right;
+  margin-left: 500px;
+  box-sizing: border-box;
+}
+
+.progects {
+  text-align: center;
+}
