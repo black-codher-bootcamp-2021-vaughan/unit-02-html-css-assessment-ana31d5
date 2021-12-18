@@ -1,0 +1,42 @@
+.form Input[type="submit"] {
+  background-color: purple;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+header {
+  background-color: #ffaf47;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  color: blanchedalmond;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+}
+
+footer {
+  background-color: #ffaf47;
+  color: black;
+  display: flexbox;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: whitesmoke;
+  display: block;
+  flex-direction: row;
+  padding: 1em;
+  width: 750px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em auto 0px;
+}
+/* Styling it for the hover state mouse moving on top */
+Input[type="submit"]:hover {
+  background-color: #45a;
+}
